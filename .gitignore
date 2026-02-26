@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.tsbuildinfo
+*.tsbuildinfo
+
+# Keys — never commit
+*.pem
+*.key
+*.p12
+*.pfx
+agent-keys/
+did-keys/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
