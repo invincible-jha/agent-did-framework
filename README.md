@@ -1,5 +1,7 @@
 # @aumos/agent-did
 
+[![Governance Score](https://img.shields.io/badge/governance-self--assessed-blue)](https://github.com/aumos-ai/agent-did-framework)
+
 W3C Decentralized Identifiers and Verifiable Credentials for AI agent trust attestation.
 
 Part of the [AumOS](https://github.com/aumos-ai) open-source governance protocol suite.

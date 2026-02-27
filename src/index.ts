@@ -109,3 +109,37 @@ export {
   buildDefaultCredentialConfig,
   buildDefaultResolverConfig,
 } from "./config.js";
+
+// ---------------------------------------------------------------------------
+// Governance Verifiable Credentials
+// ---------------------------------------------------------------------------
+export { GovernanceVCIssuer, GovernanceVCVerifier } from "./credentials/governance-vc.js";
+export type {
+  GovernanceComplianceCredential,
+  GovernanceClaimSet,
+  GovernanceFramework,
+  ConformanceLevel,
+  CheckResult,
+  GovernanceCheckName,
+  VerificationResult as GovernanceVerificationResult,
+} from "./credentials/governance-vc.js";
+
+// ---------------------------------------------------------------------------
+// Cross-organisation mutual authentication
+// ---------------------------------------------------------------------------
+export { CrossOrgAuthenticator } from "./auth/cross-org.js";
+export type {
+  OrgTrustPolicy,
+  AuthChallenge,
+  MutualAuthResult,
+} from "./auth/cross-org.js";
+
+// ---------------------------------------------------------------------------
+// Audit trail non-repudiation
+// ---------------------------------------------------------------------------
+export { NonRepudiationSigner, NonRepudiationChain, exportForCompliance } from "./audit/non-repudiation.js";
+export type {
+  AuditEntry,
+  SignedAuditEntry,
+  ChainVerificationResult,
+} from "./audit/non-repudiation.js";
