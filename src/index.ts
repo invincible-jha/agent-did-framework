@@ -125,6 +125,16 @@ export type {
 } from "./credentials/governance-vc.js";
 
 // ---------------------------------------------------------------------------
+// Trust bridge (DID → Trust Gate)
+// ---------------------------------------------------------------------------
+export { DIDTrustBridge } from './agent/trust-bridge.js';
+export type {
+  TrustLevelMapping,
+  TrustBridgeResult,
+  TrustBridgeConfig,
+} from './agent/trust-bridge.js';
+
+// ---------------------------------------------------------------------------
 // Cross-organisation mutual authentication
 // ---------------------------------------------------------------------------
 export { CrossOrgAuthenticator } from "./auth/cross-org.js";
